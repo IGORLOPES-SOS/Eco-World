@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2e7d32;
+  }
+  
+  header {
+    background-color: #a5d6a7;
+    padding: 20px 20;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  
+  }
+  .titulo{
+ font-family: Arial, Helvetica, sans-serif;
+
+    box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+  }
+  
+  .header-container {
+    box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .intro {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .reciclagem-tipos {
+    background-color: #c8e6c9;
+    padding: 30px 0;
+    border-radius: 10px;
+    box-shadow: 2px 5px rgba(1,1,1,1.1);
+  }
+  
+  .tipos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+   
+  }
+  
+  .tipo {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(1,1,1,1.1);
+    width: 150px;
+  }
+  
+  .botao-cadastro {
+    display: inline-block;
+    background-color: #43a047;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 30px 0;
+    transition: 0.3s;
+  }
+  
+  .botao-cadastro:hover {
+    background-color: #2e7d32;
+     background-color: rgba(0, 128, 0, 0.761);
+     box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     width: 150px;
+  }
+  .botao-cadastro:hover{
+    background-color:rgba(0, 128, 0, 0.461);
+  }
+  
+  footer {
+    background-color: #a5d6a7;
+    padding: 15px;
+    font-size: 14px;
+    color: #1b5e20;
+  }
+ 
+  .metal{
+   background-color:rgba(255, 255, 0, 0.847);
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     width: 150px;
+       box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+  }
+
+  .metal:hover{
+    background-color: rgba(0, 128, 0, 0.549);
+  }
+  .vidro{
+    background-color: rgba(0, 128, 0, 0.761);
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     width: 150px;
+     box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+  }
+  .vidro:hover{
+    background-color: rgba(0, 128, 0, 0.549);
+  }
+
+  .plastico{
+    background-color: red;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     width: 150px;
+     box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+  }
+
+  .plastico:hover{
+    background-color: rgba(0, 128, 0, 0.549);
+  }
+  .papel{
+    background-color: rgba(0, 0, 255, 0.604);
+     padding: 10px 20px;
+     border: none;
+     cursor:pointer;
+     width: 150px;
+     box-shadow: 0 2px 5px rgba(1,1,1,1.1);
+    }
+  .papel:hover{
+    background-color: rgba(0, 128, 0, 0.549);
+  }

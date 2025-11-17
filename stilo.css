@@ -1,0 +1,113 @@
+/* Reset geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #a5d6a7; /* verde mais suave */
+  color: #2e7d32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Cabeçalho com logo e título */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/* Caixa principal do formulário */
+.form-container {
+  background-color: #fff;
+  padding: 40px 30px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Título do formulário */
+.form-container h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Grupos de campos */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #388e3c;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #333;
+  background-color: #f9fff9;
+}
+
+input:focus {
+  border-color: #66bb6a;
+  outline: none;
+  box-shadow: 0 0 4px rgba(102,187,106,0.5);
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #1b5e20;
+  transform: scale(1.02);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .form-container {
+    padding: 30px 20px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
+
+  
+    
